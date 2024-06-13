@@ -1,4 +1,11 @@
 {
   "name": "vercel-env",
-  "packageManager": "yarn@4.1.1"
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
 }

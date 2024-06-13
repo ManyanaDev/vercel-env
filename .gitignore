@@ -11,3 +11,7 @@
 
 #!.yarn/cache
 .pnp.*
+.vercel
+
+node_modules
+.env*.*
